@@ -1,0 +1,34 @@
+.featuredProducts {
+  margin: 100px 200px;
+  // font-family: 'Poppins', sans-serif;
+  // font-family: "Josefin Sans", sans-serif;
+  // font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
+  // overflow: hidden;
+
+  .top {
+    display: flex;
+    // flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    h1 {
+      flex: 2;
+      text-transform: capitalize;
+    }
+
+    p {
+      flex: 3;
+      color: gray;
+      text-align: justify;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+}
